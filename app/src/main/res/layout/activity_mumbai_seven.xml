@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    android:background="@drawable/allbackjet"
+    tools:context=".MumbaiSeven">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <ImageButton
+                android:id="@+id/mumsevenbutton"
+                android:layout_width="390dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/pune" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Pune"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" \n The land of Peshwas, Pune has held an important position; both culturally and historically since the times of Chhatrapati Shivaji Maharaj. Attractions:"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Punemapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+
+            <ImageButton
+                android:id="@+id/nashikbbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/nashik" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Nashik"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" Nashik is located in the North-Western region of Maharashtra and is located on the banks of the river Godavari which also originates here. Attractions:\n
+       Trimbakeshwar Temple\n
+    Pandavleni Caves\n
+    Panchvati\n
+    Muktidham Temple\n
+    Dugarwadi waterfall\n
+    Anjaneri Mountains\n
+    Saptashrungi\n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Nasikmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/aurangabadbbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/aurangabad" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Aurangabad"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" Aurangabad is named after the Mughal emperor Aurangzeb and is one of the most prominent tourist places in Maharashtra. Some of the tourist attractions in Aurangabad are:\n
+     Ajanta and Ellora Caves\n
+    Devgiri Fort\n
+    Ghrishneshwar Temple\n
+    Bibi Ka Maqbara\n
+    Panchakki\n
+    Salim Ali Lake and Bird Sanctuary\n
+    Jama Mosque\n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Aunragabadmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/mahabaleshwarbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/mahabaleshwar" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Mahabaleshwar"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Mahabaleshwar is a hill station in Maharashtra and is located at the Western Ghats. Some of the tourist attractions in Mahabaleshwar are:\n
+    Pratapgarh Fort/n
+     Pratap Garden/n
+    Afzal Khan Tomb/n
+    Old Mahabaleshwar/n
+    Bhawani Mandir/n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Mahabaleshwarmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/matheranrbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/matherantrain" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Matheran"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Another great hill station located at the Western Ghats in the state of Maharashtra, Matheran is located at an elevation of approximately 800 meters above sea level. Attractions:\n
+    Echo Point\n
+    Louisa Point\n
+    Charlotte Lake\n
+    Alexander Point\n
+    One Tree Hill\n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Mathranmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <Button
+                android:id="@+id/Maharastratripbutton"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Ready to Book?"
+                />
+
+            <Button
+                android:id="@+id/mumsevenback"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/custom_button"
+                android:text="|BACK|"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

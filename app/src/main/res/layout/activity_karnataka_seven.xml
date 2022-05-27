@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackjet"
+    tools:context=".Karnataka_seven">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <ImageButton
+                android:id="@+id/Bangalorebutton"
+                android:layout_width="390dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/banglore" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Bangalore"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" \nThe capital of Karnataka and the 3rd most populated city in India, Bangalore is often known by its nickname the silicon valley of India due to it being a major IT exporter in India.he town is famous for its various attractions which include both modern and historical place to visit.
+The various temples, palaces, lakes and forts etc. are definitive places to visit."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Bangloremapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+
+            <ImageButton
+                android:id="@+id/Mysorebutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/mysore" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Mysore"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The down served as the capital of the princely State of Mysore for nearly six centuries with distinguished rulers like Tipu Sultan and Hyder Ali. The town is known for being the birth place for various styles of Indian arts and crafts.
+Mysore is a major tourist destination in India and should be visited by all who want to experience the rich culture of this historical city. "
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Mysoremapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Mangalorebbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/mangalore" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Mangalore"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" Mangalore is located between the Arabian Sea and the Western Ghats and is considered to be the 8th most clean city in India. The city has been an important one since the rule of the ancient kingdoms like the Mauryas, Chalukyas and the Hoysalas etc. however the city saw its golden days of prominence during the reign of Tipu Sultan and Hyder Ali.
+Mangalore was a primary source of tension between Tipu Sultan and the British. The city is famous for its amazing beaches and hills and the rich culture imbibed within various temples and monuments of the old days."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Mangaloremapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Bijapurbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/bijapur" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Bijapur"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Esablished between the 10th – 11th century AD by the Chalukyas and eventually came under the reign of the Delhi Sultanate and the Nizam of Hyderabad. Bijapur is known for its various historical monuments and forts. There are various temples in the town that were established in the ancient era of the Deccan kingdoms, however the city saw its best days under the Adilshahi Dynasty and has an evident Mohamedian influence in its culture.
+The various monuments in the city display a brilliant Muslim architecture and are some of the best sites to visit."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Bijapurmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Gokarnabutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/gokarna" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Gokarna"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="A small temple town located at the northern part of Karnataka, Gokarna is known for its temples and some of the most beautiful beaches in India. The Shiva temple of Mahabaleshwara is prime pilgrim spot in this town and houses what is believed to be the original image of lord Shiva’s lingam.
+It is one of the most favored holiday destinations in the state as its clean and unpopulated beaches are amazing."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Gokarnamapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <Button
+                android:id="@+id/Karnatakatripbutton"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Ready to Book?"
+                />
+
+            <Button
+                android:id="@+id/karsevenback"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/custom_button"
+                android:text="|BACK|"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

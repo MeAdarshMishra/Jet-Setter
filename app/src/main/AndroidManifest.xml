@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetSetter">
+        <activity
+            android:name=".Tamil_Seven"
+            android:exported="false" />
+        <activity
+            android:name=".UP_Seven"
+            android:exported="false" />
+        <activity
+            android:name=".RajaSeven"
+            android:exported="false" />
+        <activity
+            android:name=".MPSeven"
+            android:exported="false" />
+        <activity
+            android:name=".Karnataka_seven"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraMain"
+            android:exported="false" />
+        <activity
+            android:name=".MumbaiSeven"
+            android:exported="false" />
+        <activity
+            android:name=".AP_Visakhapatnam"
+            android:exported="false" />
+        <activity
+            android:name=".Rajasthan"
+            android:exported="false" />
+        <activity
+            android:name=".Maharashtra"
+            android:exported="false" />
+        <activity
+            android:name=".Madhya_Pradesh"
+            android:exported="false" />
+        <activity
+            android:name=".Tamil_Nadu"
+            android:exported="false" />
+        <activity
+            android:name=".Karnataka"
+            android:exported="false" />
+        <activity
+            android:name=".Uttar_Pradesh"
+            android:exported="false" />
+        <activity
+            android:name=".Andhra_Pradesh"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

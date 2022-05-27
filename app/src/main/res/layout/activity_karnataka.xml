@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackjet"
+    tools:context=".Karnataka">
+
+    <TextView
+        android:id="@+id/karnatakamaintextView"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="casual"
+        android:gravity="top"
+        android:text="With an area expanding around 2 lakh sq km and a population of over 6 crore residents, the South Indian state of Karnataka is rightfully one state made up of many worlds. The 31 districts of the state include some of India’s most prominent historical, natural, adventurous, and religious tourist attractions. Here is a list of 50 famous places in Karnataka for you to explore on your next visit.Karnataka is bordered by the Arabian Sea to the west, Goa to the northwest, Maharashtra to the north, Telangana to the northeast, Andhra Pradesh to the east, Tamil Nadu to the southeast, and Kerala to the southwest."
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/karanataka" />
+    <Button
+        android:id="@+id/karnatopbutton"
+        android:layout_width="109dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:text="|Top Famous Places|"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/backkarnatakamainbutton"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custom_button"
+        android:text="|BACK|"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</RelativeLayout>

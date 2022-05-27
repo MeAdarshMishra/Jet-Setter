@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackjet"
+    tools:context=".MPSeven">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <ImageButton
+                android:id="@+id/mpsevenbutton"
+                android:layout_width="390dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/khajuraho" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Khajuraho Erotic Temples"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" \n The Khajuraho erotic temples are one of the top historical destinations in India. If you want proof that the Kama Sutra originated in India, Khajuraho is the place to visit.
+There are over 20 temples abounding in erotic sculptures. However, more than that, they show a celebration of love, life, and worship."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Khajurahomapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+
+            <ImageButton
+                android:id="@+id/Bandhavgarhbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/bandhavgarh" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Bandhavgarh National Park"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Bandhavgarh and Kanha National Parks are among the top national parks in India. Bandhavgarh, while being relatively difficult to reach and costly to visit, is the best place to see tigers in the wild in India.
+The park features dense green valleys and rocky hill terrain, with an ancient fort. In addition to tigers, the park has a large array of wildlife including sloth bears, deer, leopards, jackals, and birds.
+"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/bandhavgarhmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Kanhabutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/kanha" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Kanha National Park"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Kanha National Park has the honor of providing the inspiration for Rudyard Kipling’s classic novel, The Jungle Book. It’s rich in lush saal and bamboo forests, lakes, streams, and open grasslands.
+As well as tigers, the park abounds with barasingha (swamp deer) and an extensive variety of other animals and birds. Rather than offering one particular kind of animal, it provides an all-round nature experience. The park is well regarded for its research and conservation programs, and many endangered species have been saved there.
+"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Kanhamapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Gwaliorbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/gwalior" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Gwalior"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The great thing about Gwalior is that it's so accessible -- only two hours drive from Agra and the Taj Mahal in Uttar Pradesh. The main attraction the massive hilltop fort that towers over the city. Reputed to be one of the most invincible forts in India, its history stretches back over 1,000 years.
+Inside the fort walls are a number of palaces and temples, the highlight being the Man Mandir Palace. At the bottom of the fort is the Old Town of Gwalior, brimming with history and fine examples of Mughal architecture such as the Tomb of Tansen. The Tansen Music Festival is held at the tomb every December.
+"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Gwaliormapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Orchhabutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/orchha" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Orchha"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Orchha is located on the banks of the Betwa River, a comfortable hour and a half south of Gwalior. It's another relatively peaceful place, full of well-preserved palaces and temples, with a distinctly medieval charm.
+Three main palaces are enclosed in Orccha's fortified walls. The Jahangir Mahal is the largest and most impressive, and its upper levels offer some arresting panoramic views. A stay inside the Jahangir Mahal, at the Hotel Sheesh Mahal, completes the experience. Being a government-run hotel, it's not luxurious but it is full of character.
+"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Orchhamapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <Button
+                android:id="@+id/MPtripbutton"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Ready to Book?"
+                />
+
+            <Button
+                android:id="@+id/mpsevenback"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/custom_button"
+                android:text="|BACK|"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

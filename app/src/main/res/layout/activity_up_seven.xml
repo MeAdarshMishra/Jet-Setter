@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backall"
+    tools:context=".UP_Seven">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <ImageButton
+                android:id="@+id/Varanasibutton"
+                android:layout_width="390dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/varanasi" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Varanasi"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" \n Varanasi, also known as Kashi and Benaras and considered to be the world’s oldest living city is one of the most famous tourist places in Uttar Pradesh. Being one of Hinduism’s seven holy cities, Varanasi is indeed the spiritual capital of India. While you would find temples at almost every turn in the city, the Kashi Vishwanath Temple, which is one of the 12 Jyotirlingas, is the most visited and the oldest of all. Varanasi is considered an auspicious place to die, as it is believed to grant moksha or liberation from the cycle of life and death. About 80 ghats along the banks of the Holy Ganges form the heart and soul of the city. The ceremony of immense grandeur and spiritual enlightenment, the Ganga Aarti is a must-experience when in Varanasi.
+Also, the hot chaat and cool lassi would be the perfect feast for your taste-buds."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Varanasimapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+
+            <ImageButton
+                android:id="@+id/Lucknowbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/lucknow" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Lucknow"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" The capital and the largest city of Uttar Pradesh, Lucknow welcomes you with a heart-warming note of ‘Muskuraiyein, kyunki aap Lucknow mein hai’ (Smile, for you, are in Lucknow). Situated on the banks of river Gomti, this city of Nawabs and Kebabs is renowned for its architecture, history, literature and culture. The people of Lucknow are known for their courtly manners and endearing ‘Pehle aap’ (you first) culture, which always leaves behind a smile on the faces of the visitors. Rumi Darwaza, the Mughal Gateway built in the centre of the capital divides the city into its old and new part. While Old Lucknow is well-known for its bustling vibrant streets, authentic mouth-watering kebab and biryani outlets, Lucknowi Chikan (a form of embroidery) market and wholesale jewellery stores, New Lucknow hosts people of varied cultures, is urban and one of the most planned cities in Asia.
+Lucknow is certainly one of the most famous places not only in Uttar Pradesh but also in the whole of India."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Lucknowmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Agrabutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/agra" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Agra"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="One of the most important places to visit in Uttar Pradesh and famous across the globe for being the home of the Taj Mahal, Agra is located on the banks of River Yamuna. Home to two more UNESCO World Heritage Sites – Agra Fort and Fatehpur Sikri, Agra is indeed a sneak peek into the architectural history and legacy of the Mughal empire. The city forms part of the popular Golden Triangle Circuit for tourists along with Delhi and Jaipur and also a part of the Uttar Pradesh Heritage Arc including Varanasi and Lucknow. Agra is a heaven for history fanatics, architecture buffs and foodies, all alike.
+It’s famous for its Petha and also well-known for its marble artefacts.
+"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Agramapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Vrindavanbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/vrindavan" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Vrindavan"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Located only 10 km. away from each other, Mathura and Vrindavan are often considered twin cities. One of the oldest cities on the banks of Yamuna, Vrindavan is considered to be one of the most important places of pilgrimage for the devotees of Lord Krishna. Considered to be his childhood abode, the city of Vrindavan, which is located along the waters of river Yamuna hosts hundreds of Lord Krishna and Radha temples scattered throughout. The most famous of them are Banke Bihari temple and the world-famous ISKCON temple. The name of the city has been derived from Vrinda (meaning basil) and Van (meaning grove) which perhaps refer to the two small groves at Nidhivan and Seva Kunj.
+Since Vrindavan is considered to be a sacred place, a large number of people come here to renounce their worldly life."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Vrindavanmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Ayodhyabutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/ayodhya" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Ayodhya"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Yet another very famous place in Uttar Pradesh, Ayodhya has been in limelight since many years now and very recently for the grand Bhoomi Poojan of the Ram Mandir that is to constructed here. The birthplace of Lord Rama, Ayodhya is located on the banks of river Sarayu in Uttar Pradesh and is one of the seven sacred cities for Hindus. Ayodhya is also the birthplace of four of Jainism’s 24 Tithankaras thus making it one of the most important tourist destinations in Uttar Pradesh for Jains too. The religious town is adorned with many serene ghats by the banks of the holy Sarayu river.
+Despite the controversy, Ayodhya has so much colour and spirituality to see and experience for its tourists and continues to be a significant pilgrim centre."
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Ayodhyamapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <Button
+                android:id="@+id/UPtripbutton"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Ready to Book?"
+                />
+
+            <Button
+                android:id="@+id/upsevenback"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/custom_button"
+                android:text="|BACK|"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

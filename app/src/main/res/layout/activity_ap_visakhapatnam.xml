@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/allbackjet"
+    tools:context=".AP_Visakhapatnam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <ImageButton
+                android:id="@+id/apvisakhabutton"
+                android:layout_width="390dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/apavishakha" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Visakhapatnam"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" \n Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India.Given below are the major tourist attractions of Visakhapatnam:\nBorra Caves\nAraku Valley\nYarada Beach\nRishikonda Beach\nKatiki Waterfalls\nIndira Gandhi Zoological Park\nKailasagiri Hill Park\nVUDA Park\n"
+                android:textColor="@color/material_dynamic_neutral_variant10"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal" />
+
+            <Button
+                android:id="@+id/vishakhapatnambutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/custom_button"
+                android:text="|MAP|"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+
+            <ImageButton
+                android:id="@+id/apvisakhabbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/aptirupati" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Tirupati"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" Tirupati is one of the Major cultural and religious pilgrimage spots in India. Here are some of the major tourist attractions of Tirupati:\n
+    Sri Venkateswara Temple\n
+    Talakona Waterfalls\n
+    TTD Gardens\n
+    Deer Park\n
+    Sri Vari Museum\n
+    Sri Govindarajaswami Temple\n
+    Srikalahasti\n
+    Kanipakam\n"
+
+                android:textColor="@color/material_dynamic_neutral_variant10"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal" />
+
+            <Button
+                android:id="@+id/Tirupatimapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/custom_button"
+                android:text="|MAP|"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/apvijayawadabbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/vijayawada" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Vijayawada"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" Vijayawada, being the third largest city of Andhra Prades is number 3 on this list. Some popular tourist places in Vijayawada are:\n Sri Venkateswara Temple\n
+    Talakona Waterfalls\n
+    TTD Gardens\n
+    Deer Park\n
+    Sri Vari Museum\n
+    Sri Govindarajaswami Temple\n
+    Srikalahasti\n
+    Kanipakam\n"
+                android:textColor="@color/material_dynamic_neutral_variant10"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal" />
+
+            <Button
+                android:id="@+id/vijaymapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/custom_button"
+                android:text="|MAP|"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/apNellorebutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/nellore" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Nellore"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The name ‘Nellore’ literally means ‘Paddy Place’ and is thus one of the primary agricultural cities in Andhra Pradesh. Here are some important tourist destinations in Nellore:\n
+    Udayagiri Fort \n
+    Venkatagiri Fort \n
+    Nellapattu Bird Sanctuary \n
+    Sri Ranganathaswamy Temple \n
+    Penchalakona \n
+    Jonnawada \n
+    Mypad Beach \n
+    Pulicat Lake"
+                android:textColor="@color/material_dynamic_neutral_variant10"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal" />
+
+            <Button
+                android:id="@+id/Nelloremapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/custom_button"
+                android:text="|MAP|"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/apChittoorbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/chittoor" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Chittoor"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The city of Chittoor lies at the banks of the Ponnai River and is thus an important agricultural town in Andhra Pradesh. Some major tourist places in Chittoor are given below:\n
+    Horsley Hills\n
+    Kaundinya Wildlife Sanctuary\n
+    Kalavagunta\n
+    Gurramkonda Fort\n
+    Nagari Hill\n
+    Sri Venkateswara Temple\n
+    Mogili\n
+    Ramagiri"
+                android:textColor="@color/material_dynamic_neutral_variant10"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal" />
+
+            <Button
+                android:id="@+id/Chittoremapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/custom_button"
+                android:text="|MAP|"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/apPuttaparthibutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/puttaparthi" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Puttaparthi"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The significance of Puttaparthi rose to fame due to it being one of the major religious centers of ‘Satya Sai Baba’. Here are some major places to visit in Puttaparthi: \n
+    Sai Kulwant Hall \n
+    Chaitanya Jyoti Museum\n
+    Sri Sathya Sai Space Theatre\n
+    Sri Sathya Sai Hill View Stadium\n
+    Gopuram\n
+    Anjaneya Hanuman Swamy Temple\n
+    Village Mosque\n
+    Chitravathi River"
+                android:textColor="@color/material_dynamic_neutral_variant10"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal" />
+
+            <Button
+                android:id="@+id/Puttaparimapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/custom_button"
+                android:text="|MAP|"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/apRajahmundrybutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/puttaparthi" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Rajahmundry"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The city is known to be the cultural capital of Andhra Pradesh and is notable for its ancient Vedic culture. Some of the most popular places in Rajahmundry is given below:\n
+    Papi Hills\n
+    Kadiyapulanka\n
+    Godavari Boat Travels\n
+    Kotilingeswara TempleRallabandi Subbarao Government Museum\n
+    Pattiseema\n
+    Markandeya Temple\n
+    Dowleswaram Barrage"
+                android:textColor="@color/material_dynamic_neutral_variant10"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal" />
+
+            <Button
+                android:id="@+id/Rajahumudarymapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/custom_button"
+                android:text="|MAP|"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+
+            <Button
+                android:id="@+id/Vishakhapatnamtripbutton"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Ready to Book?"
+                />
+
+            <Button
+                android:id="@+id/apvisakhaback"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:text="|BACK|"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    android:background="@drawable/allbackjet"
+    tools:context=".MainPage"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/andhrapradeshbutton"
+                android:layout_width="500dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="center"
+                android:src="@drawable/charminarap" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Andhra Pradesh"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+            <ImageButton
+                android:id="@+id/karanatakabutton"
+                android:layout_width="500dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="top"
+                android:src="@drawable/karanataka" />
+
+            <TextView
+                android:id="@+id/karanatakatextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Karnataka"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/madhyapradeshbutton"
+                android:layout_width="500dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="top"
+                android:src="@drawable/madhyapradesh" />
+
+            <TextView
+                android:id="@+id/madhyapradeshtextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Madhya Pradesh"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+            <ImageButton
+                android:id="@+id/maharastrabutton"
+                android:layout_width="500dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="top"
+                android:src="@drawable/maharastra" />
+
+            <TextView
+                android:id="@+id/maharastratextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Maharashtra"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+            <ImageButton
+                android:id="@+id/rajasthanbutton"
+                android:layout_width="500dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="top"
+                android:src="@drawable/rajasthan" />
+
+            <TextView
+                android:id="@+id/rajasthantextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Rajasthan"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+            <ImageButton
+                android:id="@+id/tamilnadubutton"
+                android:layout_width="500dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="top"
+                android:src="@drawable/tamilnadu" />
+
+            <TextView
+                android:id="@+id/tamilnadutextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Tamil Nadu"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+            <ImageButton
+                android:id="@+id/uttarpradeshbutton"
+                android:layout_width="500dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="top"
+                android:src="@drawable/uttarpradesh" />
+
+            <TextView
+                android:id="@+id/uptextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Uttar Pradesh"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+            <Button
+                android:id="@+id/mainback"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/custom_button"
+                android:text="|BACK|"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

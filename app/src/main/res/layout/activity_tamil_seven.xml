@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackjet"
+    tools:context=".Tamil_Seven">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <ImageButton
+                android:id="@+id/Chennaibutton"
+                android:layout_width="390dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/chennai" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Chennai"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" \n Formerly known by the name Madras, Chennai is the Capital City of Tamil Nadu. Main Attractions:\n
+Marina Beach\n
+Semmozhi Poonga\n
+The Huddleston Gardens Of Theosophical Society\n
+Arignar Anna Zoological Park\n
+Pulicat Lake\n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Chennaimapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+
+            <ImageButton
+                android:id="@+id/Mahabalipurambutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/mahabalipuram" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Mahabalipuram"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Also known as Mamallapuram, the city of Mahabalipuram is famous for its ancient and cultural heritage.  Main attractions:\n
+Arjuna’s Penance\n
+Thirukadalmallai\n
+Cave Temples\n
+Shore Temple\n
+"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Mahabalipurammapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Kanyakumaributton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/kanyakumari" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Kanyakumari"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text=" The southernmost tip of mainland India, Kanyakumari was formerly known by the name Cape Comorin. Main attractions:\n
+    Kanyakumari Temple\n
+    Vivekananda Rock Memorial\n
+    Suchindrum\n
+    Padmanabhapuram Palace\n
+    Thiruvalluvar Statue\n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Kanyakumarimapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Maduraibutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/madurai" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Madurai"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The 3rd largest city in Tamil Nadu, Madurai is also one of the oldest inhabited cities in the world. Main attractions:\n
+    Sree Meenakshi Amman Temple\n
+    Thiruparankundram Murugan Temple\n
+    Gandhi Museum\n
+    Samanar Hills\n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Maduraimapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <ImageButton
+                android:id="@+id/Kodaikanalbutton"
+                android:layout_width="380dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/kodaikanal" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="Kodaikanal"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="bottom"
+                android:text="The town is also referred to as the ‘Princess of the Hill stations’ with its name meaning ‘the Gift of the Forest’. Main attractions:\n
+Berijam Lake\n
+Coakers Walk\n
+Kodai Lake\n
+Kurinjiandavar Temple\n
+Dolphin’s Nose\n"
+                android:textSize="20dp"
+                android:textStyle="bold|italic|normal"
+                android:textColor="@color/material_dynamic_neutral_variant10"/>
+            <Button
+                android:id="@+id/Kodaikanalmapbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="126dp"
+                android:background="@drawable/buttondesign"
+                android:text="|MAP|" />
+            <Button
+                android:id="@+id/Tamiltripbutton"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Ready to Book?"
+                />
+
+            <Button
+                android:id="@+id/tamilsevenback"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/custom_button"
+                android:text="|BACK|"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

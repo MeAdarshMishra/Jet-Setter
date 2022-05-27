@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1375" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/drawable/background_splash.xml" value="0.1585" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/drawable/buttondesign.xml" value="0.1585" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/drawable/custom_button.xml" value="0.1375" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/drawable/mainbuttondesign.xml" value="0.12" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_andhra_pradesh.xml" value="0.264" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_ap_visakhapatnam.xml" value="0.1" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_karnataka.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_karnataka_seven.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_madhya_pradesh.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_maharashtra.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_maharashtra_main.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_main_page.xml" value="0.1" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_mpseven.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_mumbai_seven.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_raja_seven.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_rajasthan.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_tamil_nadu.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_tamil_seven.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_up_seven.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/layout/activity_uttar_pradesh.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1375" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/JetSetter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

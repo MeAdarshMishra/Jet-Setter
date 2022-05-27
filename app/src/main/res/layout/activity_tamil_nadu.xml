@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackjet"
+    tools:context=".Tamil_Nadu">
+
+    <TextView
+        android:id="@+id/tamilnadumaintextView"
+        android:layout_width="409dp"
+        android:layout_height="225dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="191dp"
+        android:fontFamily="casual"
+        android:gravity="top"
+        android:text="The tourism industry of Tamil Nadu is the largest in India, with an annual growth rate of 16 per cent. Tourism in Tamil Nadu is promoted by Tamil Nadu Tourism Development Corporation (TTDC), a government of Tamil Nadu undertaking. According to Ministry of Tourism statistics, 4.68 million foreign (20.1% share of the country) and 333.5 million domestic tourists (23.3% share of the country) visited the state in 2015 making it the most visited state in India both domestic and foreign tourists."
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/tamilnadu" />
+    <Button
+        android:id="@+id/tamiltopbutton"
+        android:layout_width="109dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:text="|Top Famous Places|"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/tamilnadumainbackbutton"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custom_button"
+        android:text="|BACK|"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</RelativeLayout>
